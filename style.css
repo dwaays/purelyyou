@@ -22,6 +22,20 @@ nav {
   z-index: 999;
 }
 
+.logo-img {
+  height: 45px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.slogan {
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #e91e8c;
+  margin-bottom: 16px;
+}
+
 .hamburger {
   display: none;
   font-size: 24px;
