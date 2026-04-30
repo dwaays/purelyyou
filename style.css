@@ -22,6 +22,7 @@ nav {
   z-index: 999;
 }
 
+
 .logo-img {
   height: 65px;
   width: auto;
@@ -49,25 +50,26 @@ nav {
     display: block;
   }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 64px;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 20px 40px;
-    border-bottom: 1px solid #fce4ec;
-  }
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-bottom: 1px solid #fce4ec;
+  z-index: 998;
+}
 
-  .nav-links.open {
-    display: flex;
-  }
 
-  .nav-links a {
-    margin: 10px 0;
-  }
+.nav-links.open {
+  display: flex;
+}
+
+.nav-links a {
+  margin: 10px 0;
 }
 
 .logo {
