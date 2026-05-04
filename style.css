@@ -51,20 +51,22 @@ nav {
   }
 
 .nav-links {
-  display: none;
+  display: flex;
   flex-direction: column;
   position: fixed;
-  top: 65px;
-  left: 0;
-  width: 100%;
+  top: 0;
+  right: -100%;
+  width: 70%;
+  height: 100vh;
   background-color: #ffffff;
-  padding: 20px 40px;
-  border-bottom: 1px solid #fce4ec;
+  padding: 80px 40px;
+  border-left: 1px solid #fce4ec;
   z-index: 998;
+  transition: right 0.3s ease;
 }
 
 .nav-links.open {
-  display: flex;
+  right: 0;
 }
 
 .nav-links a {
@@ -116,7 +118,7 @@ nav {
   line-height: 1.3;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #e91e8c;
+  color: #1a1a1a;
   margin-bottom: 20px;
 }
 
